@@ -9,3 +9,6 @@ def password_gen (length = 12):
     for i in range (length):
         password += random.choice (characters)
     return password
+
+# print and import a random module 
+print ('Your password is:', password_gen())
